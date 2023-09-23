@@ -1,13 +1,15 @@
 import Banner from './components/Banner';
-import CampoTexto from './components/CampoTexto';
+import Formulario from './components/Formulario';
+import Time from './components/Time';
 
 function App() {
   return (
     <div className="App">
       <Banner />
-      <CampoTexto label=""/>
-      <CampoTexto label=""/>
-      <CampoTexto label=""/>
+      <Formulario />
+      <Time nome="Programação" />
+      <Time nome="Frontend" />
+      <Time nome="Data Science" />
     </div>
   );
 }
